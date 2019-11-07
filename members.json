@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5db5d50f5bd30323f42e5b62"},"description":"Mom","name":"Ella","nickname":"big boss","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5db5d5601003672d7479b021"},"description":"Dad","name":"Yuli","nickname":"rock star","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5db5e4fdf876042fe8a69409"},"descriprio":"Son","name":"Mark","nickname":"flash"}
+{"_id":{"$oid":"5db5e564f876042fe8a6940a"},"description":"Dog","name":"Budy","nickname":"Good boy"}

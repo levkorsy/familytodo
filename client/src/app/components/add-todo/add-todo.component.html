@@ -1,0 +1,14 @@
+<form #form="ngForm" (ngSubmit)="addTodo(form)" >
+    <div class="form-group">
+        <label for="description">Description:</label>
+        <input type="text" class="form-control" id="description" name="description" ngModel>
+    </div>
+    
+    <div class="form-group">
+        <label for="member">Select who is going to do this:</label>
+        <select class="form-control" id="member" name="member" ngModel>
+            <option *ngFor='let member of allMembers.data' value="{{member._id}}" >{{member.name}}</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

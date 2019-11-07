@@ -1,0 +1,20 @@
+<div class="container-fluid">
+    <div class="jumbotron">
+        <h1>Family todo list</h1>
+        <p>What we gonna do this week</p>
+    </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link">Home Managment</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/todos" routerLinkActive="active">Todos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/todos/add" routerLinkActive="active">Add todo</a>
+            </li>
+        </ul>
+    </nav>
+    <router-outlet></router-outlet>
+</div>
